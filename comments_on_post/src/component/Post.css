@@ -1,0 +1,21 @@
+img{
+    height: 150px;
+    width: 400px;
+}
+
+#card{
+    border: 3px solid blue;
+    margin: 5px;
+    margin: 50px;
+    width: 500px;
+}
+
+#inputsField{
+    margin: 5px;
+    border: 1px solid red;
+}
+
+#listOfComments{
+    margin: 5px;
+    border: 2px solid green;
+}
