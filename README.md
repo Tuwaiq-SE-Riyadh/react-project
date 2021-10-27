@@ -1,6 +1,21 @@
-# react-project
+# react posting project
 
-Create a social media page which contains posts. Each post card consist of a title and a text. Then add a comment section where a user can add a comment, delete it, or update it.
+I created a social media page with posts on it.
+Each post card has a headline and a paragraph.
+the webpage provides the ability to add and remove comments from the comment form
 
-![project layout](project.png)
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ - This project does not support Mobile & Tablets
+
+
+## get Start
+
+In the project directory, you can run:
+
+- `npm install`
+- `npm start`
+
+## Project Screenshot
+
+![project layout](screenshot.png)
 
