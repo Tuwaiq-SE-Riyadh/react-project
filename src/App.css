@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Main-contaner {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+}
+
+.App-header {
+  text-align: center;
+  background-color: #282c34;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  font-size: 35px;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+
+}
+.post-container{
+  width: 100%;
+  border: 1px solid #282c34 ;
+  display: grid;
+  grid-template-rows: auto;
+}
+.post{
+  width: 95%;
+  border: 1px solid #282c34 ;
+  display: grid;
+  grid-template-rows: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+
+}
+.mention-container{
+  width: 80%;
+  border: 1px solid #282c34 ;
+  display: grid;
+  grid-template-rows: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.mention-container .header {
+  display: grid;
+  grid-template-columns: 1fr 5fr; 
+  height: 70px;
+  border-bottom: 1px solid gray;
+ }
+.mention-container img {
+  width: 50px;
+  border-radius: 100%;
+  }
+.post img {
+width: 50px;
+border-radius: 100%;
+}
+.post .header {
+  display: grid;
+  grid-template-columns: 1fr 5fr; 
+  height: 70px;
+  border-bottom: 1px solid gray;
+ }
+ textarea{
+display: block;
+
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+   margin-bottom: 10px;
+
+ }
+ .button1:hover{
+  background:#1C110A ;
+  color: white;
+  }
+  .btn{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition:  1.5s;
+}
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 1px solid #1C110A;
+    border-radius: 2px;
+    transition:  0.7s;
+
+  }
