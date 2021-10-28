@@ -1,0 +1,19 @@
+.movies{
+    background: #000;
+    padding: 40px;
+    color: #d1d1d1;
+}
+.post{
+    min-height: 350px;
+    width: 300px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px #eee;
+    transition: all 0.3s;
+    margin: 0 auto 25px;
+    position: relative;
+    overflow: hidden;
+}
+
