@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+
+.flex{
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.comments{
+  
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.comment{
+  background-color: blue;
+  padding: 20px;
+  width: 70%;
+}
+
+button{
+  width: 100px;
+}
