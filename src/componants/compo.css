@@ -1,0 +1,17 @@
+
+  #AllPage{
+      display: flex;
+      gap: 4rem;
+      background-color: rgb(206, 193, 218);
+  }
+  body{
+    background-color: rgb(206, 193, 218);
+  }
+  #addPostPartOfThePage{
+      border-style: solid;
+      padding: 1rem;
+  }
+  #displayPosts{
+      background-color: pink;
+  }
+   
