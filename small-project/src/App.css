@@ -1,0 +1,61 @@
+.page{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  justify-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.textArea{
+ width: 30rem;
+ height: 5rem;
+
+}
+
+.imgCss{
+  width:15rem;
+
+}
+
+.btnAdd{
+  margin: 1rem;
+  padding: .5rem;
+}
+.postInfo{
+  font-weight: 900;
+}
+.postDiv{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  justify-items: center;
+  grid-template-columns:1fr ;
+  width: 50%;
+}
+
+.commintDiv{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  text-align: left;
+  justify-self:center;
+  justify-content: center;
+}
+
+.btnDel{
+  width: 50%;
+  height: 2rem;
+  justify-self: center;
+  align-self: center;
+  margin: 1rem;
+}
+
+.parCommint{
+  align-self: center;
+}
